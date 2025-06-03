@@ -7,11 +7,11 @@ daytime:
   dusk: [16, 18]
   night: [0, 5]
 climate:
-  day_night_temperature_difference: 8.0
+  day_night_temperature_difference: 10.0
   seasons:
     winter:
-      average_pressure: 29.86 # TODO: Find real-world data
-      average_temperature: 10.0
+      average_pressure: 30.08 # Went AI with as much data as I could find
+      average_temperature: 7.0
       weather:
         thunderstorm: 1
         raining: 25
@@ -24,7 +24,7 @@ climate:
         cloudy: 30
         clear: 60
     summer:
-      average_pressure: 29.98 # TODO: Find real-world data
+      average_pressure: 29.66 # TODO: Find real-world data
       average_temperature: 28.5
       weather:
         thunderstorm: 1
